@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  font-family: 'Spartan', Sans-serif;
+}
+
+//HTML CLASSES
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.container {
+  padding: 0 calc((100vw - 1350px) / 2);
+  margin: 0 rem(16);
+}
